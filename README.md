@@ -1,6 +1,7 @@
 ### EX NO: 05
 ### DATE: 18.04.2022
-# <p align="center">SIGMOID-ACTIVATION-FUNCTION</p>
+# <p align="center"> SIGMOID ACTIVATION FUNCTION</P>
+  
 ## Aim:
   To develop a python code that creates a simple feed-forward neural networks or perception with the Sigmoid activation function. The neuron has to be trained such that it can predict the correct output value when provided with a new set of input data.
   
@@ -11,11 +12,17 @@
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner / Google Colab
 
 ## Related Theoritical Concept:
+
 * Sigmoid Activation Function is commonly used for models where we have to predict the probability as an output. Since probability of anything exists only between the range of 0 and 1, sigmoid is the right choice because of its range.
-* The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function.
-The limitations of sigmoid function are :
+* The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function. 
+
+#### The limitations of sigmoid function are :
+
 * The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
+
 * The output of the logistic function is not symmetric around zero. So the output of all the neurons will be of the same sign. This makes the training of the neural network more difficult and unstable.
+
+<br/>
 
 ## Algorithm
 1. Import packages
@@ -31,8 +38,8 @@ The limitations of sigmoid function are :
 ```
 /*
 Program to implement the sigmoid activation function in a feed forward ANN.
-Developed by: Vigneshwar S
-RegisterNumber:  212220230058
+Developed by: J Vincent isaac jeyaraj
+RegisterNumber:  212220230060
 */
 ```
 ```python
@@ -82,11 +89,12 @@ if __name__=="__main__":
     print("Considering New Situation: ",user_input_one, user_input_two, user_input_three)
     print("New Output data: ")
     print(neuron.think(np.array([user_input_one, user_input_two, user_input_three])))
-    print("Wow, we did it!")           
+    print("Wow, we did it!")
+           
 ```
 
 ## Output:
-![Screenshot (193)](https://user-images.githubusercontent.com/75234807/168772638-bec8e757-2fe9-4937-a1bc-e89e629fccce.png)
+![Capture8](https://user-images.githubusercontent.com/75234588/169307589-4aae089e-9fd6-431d-af59-50d85ad867bf.PNG)
 
 ## Result:
   Thus created a perception to employ the Sigmoid activation function. This neuron was successfully trained to predict the correct output value, when provided with a new set of input data.
