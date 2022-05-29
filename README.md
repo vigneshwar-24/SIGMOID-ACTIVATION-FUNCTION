@@ -38,8 +38,8 @@
 ```
 /*
 Program to implement the sigmoid activation function in a feed forward ANN.
-Developed by: J Vincent isaac jeyaraj
-RegisterNumber:  212220230060
+Developed by: Vignesgwar S
+RegisterNumber: 212220230058
 */
 ```
 ```python
